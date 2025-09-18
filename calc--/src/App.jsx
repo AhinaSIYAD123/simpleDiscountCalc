@@ -1,6 +1,5 @@
 import React from "react";
-import Discountcalc from "./Discountcalc";
-
+import Discountcalc from "./Discountcalc"; 
 
 function App() {
   return (

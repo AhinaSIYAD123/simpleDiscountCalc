@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function DiscountCalculator() {
+function Discountcalc() {  
   const [price, setPrice] = useState("");
   const [discount, setDiscount] = useState("");
   const [finalPrice, setFinalPrice] = useState(null);
@@ -46,19 +46,18 @@ function DiscountCalculator() {
         />
       </div>
 
-   <div className="d-flex justify-content-center gap-2 mb-3 flex-wrap">
-  <button className="btn btn-custom px-4" onClick={calculateDiscount}>
-    Calculate
-  </button>
-  <button
-    className="btn btn-secondary px-4"
-    style={{ border: "2px solid #ff0000", color: "#ff0000" }}
-    onClick={resetCalculator}
-  >
-    Reset
-  </button>
-</div>
-
+      <div className="d-flex justify-content-center gap-2 mb-3 flex-wrap">
+        <button className="btn btn-custom px-4" onClick={calculateDiscount}>
+          Calculate
+        </button>
+        <button
+          className="btn btn-secondary px-4"
+          style={{ border: "2px solid #ff0000", color: "#ff0000" }}
+          onClick={resetCalculator}
+        >
+          Reset
+        </button>
+      </div>
 
       {finalPrice !== null && (
         <h4 className="mt-3">Final Price: {finalPrice}</h4>
@@ -67,4 +66,4 @@ function DiscountCalculator() {
   );
 }
 
-export default DiscountCalculator;
+export default Discountcalc;
