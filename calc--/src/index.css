@@ -1,0 +1,43 @@
+body {
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.card-custom {
+  background-color: #1a1a1a; /* Dark card */
+  border: 2px solid #ff0000; /* Red border */
+  border-radius: 15px;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 20px rgba(255, 0, 0, 0.5);
+  transition: transform 0.2s;
+}
+
+.card-custom:hover {
+  transform: scale(1.05);
+}
+
+.btn-custom {
+  background-color: #ff0000; /* Red button */
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.btn-custom:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}
+
+h2 {
+  color: #ff0000; /* Red heading */
+}
+
+h4 {
+  color: #ff4d4d; /* Light red for result */
+}
